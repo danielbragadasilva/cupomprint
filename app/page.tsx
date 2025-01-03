@@ -1,14 +1,17 @@
-import ThermalReceipt from "@/components/thermal-receipt";
+
+import LandingPage from '@/components/landing-page';
+import ThermalReceipt from '@/components/thermal-receipt';
 import Image from 'next/image'
 
 
 export default function Page() {
   return (
     <main className="min-h-screen py-8 bg-sky-">
+                <LandingPage />
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-          <Image
+          {/* <Image
       src="./logo.png"
       width={100}
       height={100}
@@ -18,10 +21,12 @@ export default function Page() {
             <p className="text-gray-600 mt-2">
               Gere códigos QR e mensagens personalizadas para sua impressora
               térmica
-            </p>
+            </p> */}
           </div>
 
-          <ThermalReceipt />
+          {/* <ThermalReceipt /> */}
+
+
 
           <div className="flex justify-center pt-2">
             <footer>
