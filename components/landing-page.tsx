@@ -322,34 +322,34 @@ export default function LandingPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Enterprise</CardTitle>
-                  <CardDescription>For large organizations</CardDescription>
+                  <CardDescription>Para grandes organizações</CardDescription>
                   <div className="mt-4">
-                    <span className="text-4xl font-bold">$99</span>
-                    <span className="text-muted-foreground">/month</span>
+                    <span className="text-4xl font-bold">R$99,00</span>
+                    <span className="text-muted-foreground">/mensal</span>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <CheckCircle2 className="h-5 w-5 text-primary mr-2" />
-                      Unlimited everything
+                      Tudo ilimitado
                     </li>
                     <li className="flex items-center">
                       <CheckCircle2 className="h-5 w-5 text-primary mr-2" />
-                      Custom integration
+                      Integração personalizada
                     </li>
                     <li className="flex items-center">
                       <CheckCircle2 className="h-5 w-5 text-primary mr-2" />
-                      24/7 support
+                      Suporte via WhatsApp
                     </li>
                     <li className="flex items-center">
                       <CheckCircle2 className="h-5 w-5 text-primary mr-2" />
-                      SLA guarantee
+                      Garantia de SLA
                     </li>
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full">Contact Sales</Button>
+                  <Button className="w-full">Contratar</Button>
                 </CardFooter>
               </Card>
             </div>
@@ -361,10 +361,10 @@ export default function LandingPage() {
           <div className="container mx-auto max-w-3xl">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold mb-4">
-                Frequently Asked Questions
+              Perguntas frequentes
               </h2>
               <p className="text-muted-foreground">
-                Find answers to common questions about our service
+              Encontre respostas para perguntas comuns sobre nosso serviço
               </p>
             </div>
             <Accordion type="single" collapsible className="w-full">
