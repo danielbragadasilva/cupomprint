@@ -1,8 +1,4 @@
-
 import LandingPage from '@/components/landing-page';
-import ThermalReceipt from '@/components/thermal-receipt';
-import Image from 'next/image'
-
 
 export default function Page() {
   return (

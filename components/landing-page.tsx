@@ -370,12 +370,12 @@ export default function LandingPage() {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger>
-                  What type of thermal printers are supported?
+                Que tipo de impressoras térmicas são suportadas?
                 </AccordionTrigger>
                 <AccordionContent>
-                  We support all standard 80mm thermal printers that are compatible
-                  with ESC/POS commands. This includes most popular brands like
-                  Epson, Star Micronics, and similar models.
+                Oferecemos suporte a todas as impressoras térmicas padrão de 80 mm que são compatíveis
+                  com comandos ESC/POS. Isso inclui marcas mais populares como
+                  Epson, Elgin, Generic e modelos semelhantes.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
