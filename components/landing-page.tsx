@@ -35,28 +35,28 @@ export default function LandingPage() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             <Link href="#features" className="text-sm hover:text-primary">
-              Features
+              Recursos
             </Link>
             <Link href="#pricing" className="text-sm hover:text-primary">
-              Pricing
+              Planos
             </Link>
             <Link href="#faq" className="text-sm hover:text-primary">
               FAQ
             </Link>
             <Link href="#support" className="text-sm hover:text-primary">
-              Support
+              Suporte
             </Link>
             <Link
               href="/login"
               className="text-sm px-4 py-2 rounded-md hover:bg-muted"
             >
-              Log in
+              Login
             </Link>
             <Link
               href="/register"
               className="text-sm px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
             >
-              Sign up
+              Contratar
             </Link>
           </nav>
 
@@ -534,17 +534,17 @@ export default function LandingPage() {
               <ul className="space-y-2">
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Privacy
+                  Política de Privacidade
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Termos
+                    Termos de uso
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Security
+                    Segurança
                   </Link>
                 </li>
               </ul>
