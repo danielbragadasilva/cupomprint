@@ -380,30 +380,28 @@ export default function LandingPage() {
               </AccordionItem>
               <AccordionItem value="item-2">
                 <AccordionTrigger>
-                  Can I customize the QR code design?
+                Posso personalizar o design do código QR?
                 </AccordionTrigger>
                 <AccordionContent>
-                  Yes! You can customize the QR code size, error correction level,
-                  and add your logo or brand elements to the center of the QR code.
-                  Pro and Enterprise plans offer additional customization options.
+                Sim! Você pode personalizar o tamanho do código QR, nível de correção de erros,
+                  e adicione seu logotipo ou elementos de marca ao centro do código QR.
+                  Os planos Pro e Enterprise oferecem opções adicionais de personalização.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
-                <AccordionTrigger>How does billing work?</AccordionTrigger>
+                <AccordionTrigger>Como funciona o pagamento?</AccordionTrigger>
                 <AccordionContent>
-                  We offer monthly and annual billing options. Annual billing comes
-                  with a 20% discount. You can upgrade, downgrade, or cancel your
-                  plan at any time.
+                Oferecemos opções de pagamento mensal.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger>
-                  Is there a limit to QR code generation?
+                Existe um limite para a geração de códigos QR?
                 </AccordionTrigger>
                 <AccordionContent>
-                  The Starter plan includes 100 QR codes per month. Pro and
-                  Enterprise plans offer unlimited QR code generation. Unused QR
-                  codes do not roll over to the next month.
+                O plano Starter inclui 100 códigos QR por mês. Pró e
+                  Os planos empresariais oferecem geração ilimitada de códigos QR. QR não utilizado
+                  os códigos não passam para o mês seguinte.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -414,51 +412,51 @@ export default function LandingPage() {
         <section id="support" className="py-20 px-4" aria-label="Support">
           <div className="container mx-auto max-w-6xl">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold mb-4">Need Help?</h2>
+              <h2 className="text-3xl font-bold mb-4">Precisar de ajuda?</h2>
               <p className="text-muted-foreground">
-                Our support team is here to assist you
+              Nossa equipe de suporte está aqui para ajudá-lo
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
               <Card>
                 <CardHeader>
                   <HelpCircle className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Documentation</CardTitle>
+                  <CardTitle>Documentação</CardTitle>
                   <CardDescription>
-                    Detailed guides and API documentation
+                  Guias detalhados e documentação da API
                   </CardDescription>
                 </CardHeader>
                 <CardFooter>
                   <Button variant="outline" className="w-full">
-                    View Docs
+                    Em breve
                   </Button>
                 </CardFooter>
               </Card>
               <Card>
                 <CardHeader>
                   <MessageSquare className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Live Chat</CardTitle>
+                  <CardTitle>Chat</CardTitle>
                   <CardDescription>
-                    Chat with our support team in real-time
+                  Converse com nossa equipe de suporte em tempo real
                   </CardDescription>
                 </CardHeader>
                 <CardFooter>
                   <Button variant="outline" className="w-full">
-                    Start Chat
+                    Iniciar Atendimento
                   </Button>
                 </CardFooter>
               </Card>
               <Card>
                 <CardHeader>
                   <Star className="h-10 w-10 text-primary mb-2" />
-                  <CardTitle>Community</CardTitle>
+                  <CardTitle>Communidade</CardTitle>
                   <CardDescription>
-                    Join our community forum for tips and tricks
+                  Participe da nossa comunidade para dicas e truques
                   </CardDescription>
                 </CardHeader>
                 <CardFooter>
                   <Button variant="outline" className="w-full">
-                    Join Forum
+                  Junte-se a comunidade
                   </Button>
                 </CardFooter>
               </Card>
@@ -472,16 +470,16 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-semibold mb-4">Product</h3>
+              <h3 className="font-semibold mb-4">Produtos</h3>
               <ul className="space-y-2">
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Features
+                    Recursos
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Pricing
+                    Planos
                   </Link>
                 </li>
                 <li>
@@ -492,11 +490,11 @@ export default function LandingPage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Company</h3>
+              <h3 className="font-semibold mb-4">Empresa</h3>
               <ul className="space-y-2">
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    About
+                    Sobre
                   </Link>
                 </li>
                 <li>
@@ -506,13 +504,13 @@ export default function LandingPage() {
                 </li>
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Careers
+                    Vagas
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Support</h3>
+              <h3 className="font-semibold mb-4">Suporte</h3>
               <ul className="space-y-2">
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
@@ -521,7 +519,7 @@ export default function LandingPage() {
                 </li>
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Contact
+                    Contato
                   </Link>
                 </li>
                 <li>
@@ -541,7 +539,7 @@ export default function LandingPage() {
                 </li>
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Terms
+                    Termos
                   </Link>
                 </li>
                 <li>
@@ -554,7 +552,20 @@ export default function LandingPage() {
           </div>
           <div className="border-t pt-8">
             <p className="text-center text-sm text-muted-foreground">
-              © {new Date().getFullYear()} ThermalQR. All rights reserved.
+              © {new Date().getFullYear()} PuPrint. Todos os direitos reservados.
+            </p>
+            <p className="text-center text-[1.5vh] text-muted-foreground">
+
+              Desenvolvido por{" "}
+              <a
+                href="https://danielbragadasilva.github.io/projeto/"
+                target="_blank"
+                className="font-bold underline"
+              >
+                Daniboy
+              </a>
+              <a href="">🔷</a>
+
             </p>
           </div>
         </div>
