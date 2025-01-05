@@ -18,6 +18,7 @@ import {
 import Link from "next/link"
 import { Printer, QrCode, MessageSquare, Settings, Cloud, Lock, HelpCircle, ChevronRight, Menu, X, Star, CheckCircle2 } from 'lucide-react'
 import { useState } from "react"
+import { LoginLink, RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
 
 export default function LandingPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -46,18 +47,16 @@ export default function LandingPage() {
             <Link href="#support" className="text-sm hover:text-primary">
               Suporte
             </Link>
-            <Link
-              href="/login"
+            <LoginLink
               className="text-sm px-4 py-2 rounded-md hover:bg-muted"
             >
               Login
-            </Link>
-            <Link
-              href="/register"
+            </LoginLink>
+            <RegisterLink
               className="text-sm px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
             >
-              Contratar
-            </Link>
+              Registre-se
+            </RegisterLink>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -128,7 +127,7 @@ export default function LandingPage() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="pt-32 pb-20 px-4 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background -z-10" />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-background -z-10" />
           <div
             className="absolute inset-0 -z-10"
             style={{
