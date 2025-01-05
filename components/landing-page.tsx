@@ -234,7 +234,7 @@ export default function LandingPage() {
                   <Lock className="h-10 w-10 text-primary mb-2" />
                   <CardTitle>Plataforma Segura</CardTitle>
                   <CardDescription>
-                  Segurança de nível empresarial para seus dados conforme a LGPD
+                  Segurança de nível empresarial para seus dados com certificado SSL
                   </CardDescription>
                 </CardHeader>
               </Card>
