@@ -151,7 +151,7 @@ export default function LandingPage() {
           <div className="container mx-auto max-w-6xl">
             <div className="text-center space-y-8">
               <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">
-                Gere QR code com mensagens para sua
+                Gere publicidade e propaganda com sua
                 <span className="text-primary"> Impressora Térmica</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -347,8 +347,10 @@ export default function LandingPage() {
                     </li>
                   </ul>
                 </CardContent>
-                <CardFooter>
-                  <Button className="w-full">Contratar</Button>
+                <CardFooter>                  
+                  <Button className="w-full">
+                    <RegisterLink>Contratar</RegisterLink>
+                  </Button>
                 </CardFooter>
               </Card>
             </div>
