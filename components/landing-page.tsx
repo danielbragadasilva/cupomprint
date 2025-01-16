@@ -159,7 +159,7 @@ export default function LandingPage() {
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button size="lg" className="text-lg">
-                  Contratar <ChevronRight className="ml-2 h-4 w-4" />
+                  Em breve <ChevronRight className="ml-2 h-4 w-4" />
                 </Button>
                 <Button size="lg" variant="outline" className="text-lg">
                   Assita nossa demonstração
@@ -277,7 +277,7 @@ export default function LandingPage() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full">Contratar</Button>
+                  <Button className="w-full">Em breve</Button>
                 </CardFooter>
               </Card>
               <Card className="border-primary">
@@ -315,7 +315,7 @@ export default function LandingPage() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Button className="w-full">Contratar</Button>
+                  <Button className="w-full">Em breve</Button>
                 </CardFooter>
               </Card>
               <Card>
@@ -349,7 +349,7 @@ export default function LandingPage() {
                 </CardContent>
                 <CardFooter>                  
                   <Button className="w-full">
-                    <RegisterLink>Contratar</RegisterLink>
+                    Em breve
                   </Button>
                 </CardFooter>
               </Card>

@@ -17,6 +17,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
+import { Badge } from "./ui/badge"
 
 export function NavMain({
   items,
@@ -29,12 +30,13 @@ export function NavMain({
     items?: {
       title: string
       url: string
+      tagreview: string
     }[]
   }[]
 }) {
   return (
     <SidebarGroup>
-      <SidebarGroupLabel>Platform</SidebarGroupLabel>
+      <SidebarGroupLabel>Painel</SidebarGroupLabel>
       <SidebarMenu>
         {items.map((item) => (
           <Collapsible
@@ -58,6 +60,7 @@ export function NavMain({
                       <SidebarMenuSubButton asChild>
                         <a href={subItem.url}>
                           <span>{subItem.title}</span>
+                          <Badge className="text-xs/4">{subItem.tagreview}</Badge>
                         </a>
                       </SidebarMenuSubButton>
                     </SidebarMenuSubItem>

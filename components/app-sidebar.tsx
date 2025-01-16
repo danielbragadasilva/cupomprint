@@ -28,7 +28,7 @@ const data = {
     {
       name: "PuPrint",
       logo: GalleryVerticalEnd,
-      plan: "Enterprise",
+      plan: "Gerador de publicidade",
     },
   ],
   navMain: [
@@ -41,14 +41,17 @@ const data = {
         {
           title: "Histórico",
           url: "#",
+          tagreview:"Em breve",
         },
         {
           title: "Cobrança",
           url: "#",
+          tagreview:"Em breve",
         },
         {
           title: "Settings",
           url: "#",
+          tagreview:"Em breve",
         },
       ],
     },
