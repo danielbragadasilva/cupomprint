@@ -30,8 +30,9 @@ export function NavUser({
             >
               <LogoutLink>
               <LogOut href="/api/auth/logout" />
-              Sair
+
               </LogoutLink>
+              Sair
             </SidebarMenuButton>
       </SidebarMenuItem>
     </SidebarMenu>

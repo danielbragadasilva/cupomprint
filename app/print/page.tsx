@@ -140,7 +140,7 @@ export default function PrintPage() {
                 strokeLinejoin="round"
               />
             </svg>
-            Imprimir Cupom
+            Gerar Publicidade
           </Button>
         </div>
       </Card>
@@ -159,7 +159,7 @@ export default function PrintPage() {
           </div>
 
           <div className="text-center border-t pt-4 text-xl">
-            <div className="font-bold mb-2">{formData.cupom}</div>
+            <div className="font-bold mb-2 uppercase">{formData.cupom}</div>
           </div>
 
           <div className="text-center mb-6 whitespace-normal">
