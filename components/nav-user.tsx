@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/sidebar"
 import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components"
 export function NavUser({
-  user,
+
 }: {
   user: {
     name: string

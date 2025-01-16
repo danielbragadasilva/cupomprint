@@ -7,19 +7,28 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { ChangeEvent } from "react";
 
 export default function PrintPage() {
   const [formData, setFormData] = useState({
+<<<<<<< HEAD
     url: "",
     message: "",
     phone: "",
     name: "",
+=======
+    url: "seusite.com.br",
+    message: "Visite-nos para as melhores ofertas da cidade! Ganhe 10% de desconto em sua próxima compra ao mostrar este recibo",
+    name: "Minha Loja",
+    phone: "(00) 00000-0000",
+    cupom: "VOLTA2025",
+>>>>>>> 89354eb (update)
   });
 
   // Função para aplicar a máscara de telefone
-  const handlePhoneChange = (e) => {
-    let value = e.target.value.replace(/\D/g, ""); // Remove caracteres não numéricos
-    if (value.length > 11) value = value.slice(0, 11); // Limita a 11 caracteres
+  const handlePhoneChange = (e: ChangeEvent<HTMLInputElement>) => {
+    let value = e.target.value.replace(/\D/g, "");
+    if (value.length > 11) value = value.slice(0, 11);
     const formattedPhone = value.replace(
       /^(\d{2})(\d{5})(\d{0,4})$/,
       (_, ddd, firstPart, secondPart) =>
