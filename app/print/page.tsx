@@ -11,18 +11,11 @@ import { ChangeEvent } from "react";
 
 export default function PrintPage() {
   const [formData, setFormData] = useState({
-<<<<<<< HEAD
-    url: "",
-    message: "",
-    phone: "",
-    name: "",
-=======
     url: "seusite.com.br",
     message: "Visite-nos para as melhores ofertas da cidade! Ganhe 10% de desconto em sua próxima compra ao mostrar este recibo",
     name: "Minha Loja",
     phone: "(00) 00000-0000",
     cupom: "VOLTA2025",
->>>>>>> 89354eb (update)
   });
 
   // Função para aplicar a máscara de telefone
